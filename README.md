@@ -24,8 +24,10 @@ A RESTful API for a Book Management System with user authentication, profile man
 │   └── bookModel.js         # Book model
 ├── /config                  # Configuration files
 │   └── db.js                # Database connection setup
-├── .env                     # Environment variables
+├── .env                     # Stores environment variables
+├── package-lock.json        # Project metadata
 ├── package.json             # Project metadata
+├── server.js                # server port
 ├── README.md                # Setup guide and documentation
 └── app.js                   # Main entry point
 ```
