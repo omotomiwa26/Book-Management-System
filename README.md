@@ -71,7 +71,7 @@ EMAIL_PASS=your_app_password
 
 ### Postman Documentation
 
-[Link to Postman Collection](#)
+[Link to Postman Collection](https://documenter.getpostman.com/view/38698911/2sAY4sjja8)
 
 ### Database Setup and ERD
 
