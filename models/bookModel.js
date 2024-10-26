@@ -8,6 +8,7 @@ const bookSchema = new mongoose.Schema({
   description: { type: String},
   rating: { type: Number, max: 10},
   published_date: { type: Date},
+  created_at: { type: Date, default: Date.now },
   owner: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }
 });
 

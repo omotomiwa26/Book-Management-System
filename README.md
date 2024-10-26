@@ -17,33 +17,22 @@ A RESTful API for a Book Management System with user authentication, profile man
 │   └── books.js             # Book management routes
 ├── /controllers             # Route handlers
 │   ├── authController.js    # Handles user registration, login, etc.
-│   ├── profileController.js # Handles profile operations
+│   ├── profileController.js # Handles profile RUD operations
 │   └── bookController.js    # Handles book CRUD operations
-├── /models                  # Database models
+├── /models                  # Database models and schema
 │   ├── userModel.js         # User model
 │   └── bookModel.js         # Book model
+├── /middlewares             # Database models and schema
+│   ├── authMiddleware.js    #      
 ├── /config                  # Configuration files
 │   └── db.js                # Database connection setup
 ├── .env                     # Stores environment variables
 ├── package-lock.json        # Project metadata
-├── package.json             # Project metadata
-├── server.js                # server port
+├── package.json             # Project metadata and dependencies
+├── server.js                # server entry point
 ├── README.md                # Setup guide and documentation
-└── app.js                   # Main entry point
+└── app.js                   # Main application setup
 ```
-
-## Install Dependencies
-
-- node.js
-- express
-- bcryptjs
-- jsonwentoken
-- mongoose
-- body-parser
-- ejs
-- dotenv
-- nodemailer
-- nodemon
 
 ## Getting Started
 
@@ -52,6 +41,10 @@ Before you begin, ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/) (Node Package Manager, included with Node.js)
 - [Git](https://git-scm.com/)
+
+## Install Dependencies
+
+`npm install node.js express bcryptjs jsonwentoken mongoose body-parser ejs dotenv nodemailer nodemon`
 
 ## Fork this repository
 
