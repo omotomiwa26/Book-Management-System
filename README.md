@@ -22,8 +22,8 @@ A RESTful API for a Book Management System with user authentication, profile man
 ├── /models                  # Database models and schema
 │   ├── userModel.js         # User model
 │   └── bookModel.js         # Book model
-├── /middlewares             # Database models and schema
-│   ├── authMiddleware.js    #      
+├── /middlewares             # Protect admin routes
+│   ├── authMiddleware.js    # Authenticate add, delete and update endpoints     
 ├── /config                  # Configuration files
 │   └── db.js                # Database connection setup
 ├── .env                     # Stores environment variables
@@ -42,29 +42,37 @@ Before you begin, ensure you have the following installed on your machine:
 - [npm](https://www.npmjs.com/) (Node Package Manager, included with Node.js)
 - [Git](https://git-scm.com/)
 
-## Install Dependencies
-
-`npm install node.js express bcryptjs jsonwentoken mongoose body-parser ejs dotenv nodemailer nodemon`
-
 ## Fork this repository
 
-Fork this repository by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+Fork this repository by clicking on the fork button on the top of this page, this will create a copy of this repository in your account.
 
 ### Clone this repository
 
-```git
-git clone https://github.com/your-username/book-management-system.git 
+`git clone https://github.com/your-github-username/Book-Management-System.git`
 
-cd book-management-system
+`cd Book-Management-System`
 
-Set up environment variables by creating a `.env` file:
+```bash
+Set up environment variables by creating a \`.env`\ file
+
+PORT=3000
+JWT_SECRET=your_jwt_secret
+DB_URI=your_database_uri
+EMAIL_SERVICE=gmail
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=465
+EMAIL_USER=your_gmail_username
+EMAIL_PASS=your_app_password
 ```
+
+## Install Dependencies
+
+`npm install node.js express bcryptjs jsonwentoken mongoose body-parser ejs dotenv nodemailer nodemon`
 
 ### Postman Documentation
 
 [Link to Postman Collection](#)
 
-### Database Setup
+### Database Setup and ERD
 
 Use MongoDB locally or via MongoDB Atlas. Update the `DB_URI` in `.env` accordingly.
