@@ -83,4 +83,4 @@ Use MongoDB locally or via MongoDB Atlas. Update the `DB_URI` in `.env` accordin
 
 [Link to ERD](https://dbdiagram.io/d/Book-Management-System-671e3a4c97a66db9a368e107)
 
-![ERD image](https://github.com/omotomiwa26/Book-Management-System/blob/main/Book Management System.png?raw=true)
+![ERD image](https://github.com/omotomiwa26/Book-Management-System/blob/main/erd.png?raw=true)
