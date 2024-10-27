@@ -53,7 +53,7 @@ Fork this repository by clicking on the fork button on the top of this page, thi
 `cd Book-Management-System`
 
 ```bash
-Set up environment variables by creating a \`.env`\ file
+Set up environment variables by creating a `.env` file
 
 PORT=3000
 JWT_SECRET=your_jwt_secret
@@ -69,10 +69,18 @@ EMAIL_PASS=your_app_password
 
 `npm install node.js express bcryptjs jsonwentoken mongoose body-parser ejs dotenv nodemailer nodemon`
 
+## Start The Application
+
+`npm start`
+
 ### Postman Documentation
 
 [Link to Postman Collection](https://documenter.getpostman.com/view/38698911/2sAY4sjja8)
 
-### Database Setup and ERD
+### Database Setup and Entity Relationship Diagram
 
 Use MongoDB locally or via MongoDB Atlas. Update the `DB_URI` in `.env` accordingly.
+
+[Link to ERD](https://dbdiagram.io/d/Book-Management-System-671e3a4c97a66db9a368e107)
+
+![ERD image](https://github.com/omotomiwa26/Book-Management-System/blob/main/Book Management System.png?raw=true)
